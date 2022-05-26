@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "pim_linfo_csharp/1.0.0": {
+        "runtime": {
+          "pim_linfo_csharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "pim_linfo_csharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\bin\Debug\net6.0\pim_linfo_csharp.exe
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\bin\Debug\net6.0\pim_linfo_csharp.deps.json
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\bin\Debug\net6.0\pim_linfo_csharp.runtimeconfig.json
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\bin\Debug\net6.0\pim_linfo_csharp.dll
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\bin\Debug\net6.0\pim_linfo_csharp.pdb
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\obj\Debug\net6.0\pim_linfo_csharp.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\obj\Debug\net6.0\pim_linfo_csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\obj\Debug\net6.0\pim_linfo_csharp.AssemblyInfoInputs.cache
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\obj\Debug\net6.0\pim_linfo_csharp.AssemblyInfo.cs
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\obj\Debug\net6.0\pim_linfo_csharp.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\obj\Debug\net6.0\pim_linfo_csharp.dll
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\obj\Debug\net6.0\refint\pim_linfo_csharp.dll
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\obj\Debug\net6.0\pim_linfo_csharp.pdb
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\obj\Debug\net6.0\pim_linfo_csharp.genruntimeconfig.cache
+C:\Users\victo\source\repos\pim_linfo_csharp\pim_linfo_csharp\obj\Debug\net6.0\ref\pim_linfo_csharp.dll
