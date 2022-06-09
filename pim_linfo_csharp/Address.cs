@@ -15,7 +15,7 @@
 
         public void CompartilharEnd()
         {
-            //Este método ao ser acionado fará a lógica de compartilhamento dos dados do endereço do usuário.
+            //Este método ao ser acionado fará a lógica de compartilhamento dos dados do endereço.
         }
 
         public void AtualizarEnd()

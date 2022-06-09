@@ -8,9 +8,9 @@
         public string Linkedin { get; set; }
         public string Github { get; set; }
 
-        public void CompartilharSocial()
+        public void armazenarSocial()
         {
-            //Este método ao ser acionado fará a lógica de compartilhamento dos dados das redes sociais selecionadas pelo usuário.
+            //Este método é um CRUD para armazenar os dados sociais do usuário
         }
 
         public Social(string user_email, decimal whatsapp, string instagram, string linkedin, string github)

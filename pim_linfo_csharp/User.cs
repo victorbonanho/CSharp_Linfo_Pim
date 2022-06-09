@@ -9,34 +9,43 @@
         public decimal Cpf { get; set; }
         public decimal Phone { get; set; }
 
+        public Social Social;
+        public Address Address1;
+        public Address Address2;
+        public Vehicle Vehicle1;
+        public Vehicle Vehicle2;
 
-        public Address[] Addresses;
-        public Social Social; 
-        public Vehicle[] Vehicles;
 
-
-        public bool VerifLogin()
+        public void VerifLogin()
         {
             //Esse método irá verificar futuramente a validade do login
-            return true;
         }
-        public User(string firstname, string lastname, string email, string password, decimal cpf, decimal phone, Address[] addresses, Social social, Vehicle[] vehicles)
+        public User(string firstname, string lastname, string email, string password, decimal cpf, decimal phone, Address address1, Address address2, Social social, Vehicle vehicle1, Vehicle vehicle2)
         {
-            Firstname = firstname;
-            Lastname = lastname;
-            Email = email;
-            Password = password;
-            Cpf = cpf;
-            Phone = phone;
-            Addresses = addresses;
-            Firstname = firstname;
-            Lastname = lastname;
-            Email = email;
-            Password = password;
-            Cpf = cpf;
-            Phone = phone;
+            Social = new Social("email@email.com",1199999999, "instagram.com", "linkedin.com", "github.com");
+            Address1 = new Address("Rua Fictícia", "111", "Cãpão", "complemento", "McDonalds", "Valinhos", "São Paulo", 2, "Nome da pessoa que pertence o endereço", "Email da pessoa que pertence o endereço");
+            Address2 = new Address("Rua Fictícia2", "112", "Jardins", "complemento2", "Bobs", "Valinhos", "São Paulo", 1, "Nome da pessoa que pertence o endereço", "Email da pessoa que pertence o endereço");
+            Vehicle1 = new Vehicle("Nome da pessoa que pertence o carro", "DUG4965", "Subaru", "567876876a", "azul", "emaildono@email.com");
+            Vehicle2 = new Vehicle("Nome da pessoa que pertence o carro", "DUG4965", "Subaru", "567876876a", "azul", "emaildono@email.com");
+
+            Vehicle1 = vehicle1;
+            Vehicle2 = vehicle2;
+            Address1 = address1;
+            Address2 = address2;
             Social = social;
-            Vehicles = vehicles;
+
+            Firstname = firstname;
+            Lastname = lastname;
+            Email = email;
+            Password = password;
+            Cpf = cpf;
+            Phone = phone;
+            Firstname = firstname;
+            Lastname = lastname;
+            Email = email;
+            Password = password;
+            Cpf = cpf;
+            Phone = phone;
         }
     }
 }

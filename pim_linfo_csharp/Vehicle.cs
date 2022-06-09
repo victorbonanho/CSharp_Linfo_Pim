@@ -9,9 +9,14 @@
         public string Color { get; set; }
         public string User_email { get; set; }
 
-        public void CompartilharVei()
+        public void armazenarDadosVeiculo()
         {
-            //Este método ao ser acionado fará a lógica de compartilhamento dos dados do veículo.
+            //Este método é um CRUD para armazenar os dados de veículos.
+        }
+
+        public void validarDados()
+        {
+            //Este método valida dados dos campos renavam e placa.
         }
 
         public Vehicle(string name, string plate, string model, string renavam, string color, string user_email)
