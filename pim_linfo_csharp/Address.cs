@@ -13,9 +13,9 @@
         public string Name { get; set; }
         public string User_email { get; set; }
 
-        public void CompartilharEnd()
+        public void ArmazenarEnd()
         {
-            //Este método ao ser acionado fará a lógica de compartilhamento dos dados do endereço.
+            //Este método fara o armazenamento dos dados de endereço.
         }
 
         public void AtualizarEnd()

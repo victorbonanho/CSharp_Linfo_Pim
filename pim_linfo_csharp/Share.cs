@@ -3,26 +3,20 @@
     class Share
     {
         public bool Exception { get; set; }
-        public User User;
 
-        public void verificarAcompartilhar()
+        public void verificarAcompartilhar(User user)
         {
-            //Verifica se 
+            //O usuário verifica se os dados de compartilhar estão corretos
         }
 
-        public void validarCompartilhamento()
+        public void validarCompartilhamento(User user)
         {
             //Verifica se o compartilhamento foi feito corretamente
         }
 
-        public void efetuarCompartilhamento()
+        public void efetuarCompartilhamento(User user)
         {
             //Efetua o compartilhamento
-        }
-
-        public Share() 
-        {
-            User = new User();
         }
     }
 }
