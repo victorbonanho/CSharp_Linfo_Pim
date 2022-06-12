@@ -8,11 +8,6 @@
         public string Linkedin { get; set; }
         public string Github { get; set; }
 
-        public void armazenarSocial()
-        {
-            //Este método é um CRUD para armazenar os dados sociais do usuário
-        }
-
         public Social(string user_email, decimal whatsapp, string instagram, string linkedin, string github)
         {
             User_email = user_email;
@@ -20,6 +15,11 @@
             Instagram = instagram;
             Linkedin = linkedin;
             Github = github;
+        }
+
+        public void armazenarSocial()
+        {
+            //Este método é um CRUD para armazenar os dados sociais do usuário
         }
     }
 }
