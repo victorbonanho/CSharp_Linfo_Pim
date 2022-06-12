@@ -13,16 +13,6 @@
         public string Name { get; set; }
         public string User_email { get; set; }
 
-        public void ArmazenarEnd()
-        {
-            //Este método fara o armazenamento dos dados de endereço.
-        }
-
-        public void AtualizarEnd()
-        {
-            //Este método será acionado quando o usuário atualizar as suas informações de endereço.
-        }
-
         public Address(string street, string number, string neighborhood, string complement, string reference, string city, string state, decimal id, string name, string user_email)
         {
             Street = street;
@@ -35,6 +25,16 @@
             Id = id;
             Name = name;
             User_email = user_email;
+        }
+
+        public void ArmazenarEnd()
+        {
+            //Este método fara o armazenamento dos dados de endereço.
+        }
+
+        public void AtualizarEnd()
+        {
+            //Este método será acionado quando o usuário atualizar as suas informações de endereço.
         }
     }
 }

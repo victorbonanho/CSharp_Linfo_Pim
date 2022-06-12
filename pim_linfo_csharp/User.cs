@@ -15,58 +15,13 @@
         public Vehicle Vehicle1;
         public Vehicle Vehicle2;
 
-
-        public void VerifLogin()
-        {
-            //Esse método irá verificar futuramente a validade do login
-        }
         public User(string firstname, string lastname, string email, string password, decimal cpf, decimal phone, Address address1, Address address2, Social social, Vehicle vehicle1, Vehicle vehicle2)
         {
-            Social = new Social(
-                "email@email.com",
-                1199999999,
-                "instagram.com",
-                "linkedin.com",
-                "github.com");
-            Address1 = new Address(
-                "Rua Fictícia",
-                "111",
-                "Cãpão",
-                "complemento",
-                "McDonalds",
-                "Valinhos",
-                "São Paulo",
-                2,
-                "Nome da pessoa que pertence o endereço",
-                "Email da pessoa que pertence o endereço"
-                );
-            Address2 = new Address("Rua Fictícia2", 
-                "112", 
-                "Jardins", 
-                "complemento2", 
-                "Bobs", 
-                "Valinhos", 
-                "São Paulo", 
-                1, 
-                "Nome da pessoa que pertence o endereço", 
-                "Email da pessoa que pertence o endereço"
-                );
-            Vehicle1 = new Vehicle(
-                "Nome da pessoa que pertence o carro", 
-                "DUG4965", 
-                "Subaru", 
-                "567876876a", 
-                "azul", 
-                "emaildono@email.com"
-                );
-            Vehicle2 = new Vehicle(
-                "Nome da pessoa que pertence o carro", 
-                "DUG4965", 
-                "Subaru", 
-                "567876876a", 
-                "azul", 
-                "emaildono@email.com"
-                );
+            Social = new Social();
+            Address1 = new Address();
+            Address2 = new Address();
+            Vehicle1 = new Vehicle();
+            Vehicle2 = new Vehicle();
 
             Vehicle1 = vehicle1;
             Vehicle2 = vehicle2;
@@ -86,6 +41,10 @@
             Password = password;
             Cpf = cpf;
             Phone = phone;
+        }
+        public void VerifLogin()
+        {
+            //Esse método irá verificar futuramente a validade do login
         }
     }
 }
